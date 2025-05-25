@@ -5,10 +5,8 @@ import logging
 import time
 import sys
 
-
 from file_protocol import  FileProtocol
 fp = FileProtocol()
-
 
 class ProcessTheClient(threading.Thread):
     def __init__(self, connection, address):
